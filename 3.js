@@ -147,6 +147,7 @@ calculaQtdDiasSuperiorMedia(valorTotal, diasAConsiderar);
 
 function calculaMaiorValor(valor) {
   let maiorValor = Math.max(...valor);
+
   console.log(
     `O maior valor de faturamento ocorrido em um dia foi R$ ${maiorValor.toLocaleString()}`
   );
@@ -154,6 +155,7 @@ function calculaMaiorValor(valor) {
 
 function calculaMenorValor(valor) {
   let menorValor = Math.min(...valor);
+
   console.log(
     `O menor valor de faturamento ocorrido em um dia foi R$ ${menorValor.toLocaleString()}`
   );
